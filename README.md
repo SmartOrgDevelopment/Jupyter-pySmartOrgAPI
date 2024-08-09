@@ -27,6 +27,11 @@ pip install <path to pySmartOrgAPI .whl file>
 pip install -r requirements.txt
 ```
 
+Create a .env file in this directory and enter the following with your PNAV pasword:
+```sh
+PASSWORD=<your_pnav_password>
+```
+
 Then start up jupyter lab
 ```sh
 jupyter lab
